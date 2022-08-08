@@ -162,8 +162,6 @@ passport.use(new GitHubStrategy({
     state: true
   },
   function(accessToke: any, refreshToken: any, profile: any, cb: any) {
-    console.log(profile, "<---------profile--------")
-    console.log(profile.id, " <----- profile.id");
 
     User.findOne({githubId: profile.id}, async (err: Error, doc: any) => {
       console.log("Mongo Function Firing!")
