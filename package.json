@@ -23,7 +23,8 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-instagram": "^1.0.0",
     "passport-twitter": "^1.0.4",
-    "session": "^0.1.0"
+    "session": "^0.1.0",
+    "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.3",
